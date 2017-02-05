@@ -10,7 +10,7 @@
  @Implementation Note:
  Touch Id based login works in cunjunction of three layers:
  1.App Layer - Application prompt for touch id using local authentication framework.
- 2.Keychain Wrapper - This is Apple class provide for handling data storage in keychian.Developer uses
+ 2.Keychain Wrapper - This is Apple class provided for handling data storage in keychain.Developer will use
    this class for storing either username and password || refresh token for making login service calls or any other service call
    Primarily Using Four methods:
     SecItemCopyMatching
