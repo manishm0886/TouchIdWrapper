@@ -1,6 +1,6 @@
 //
 //  TouchIdHandler.swift
-//  ToudIdWrapper
+//  TouchIdWrapper
 //
 //  Created by Manish Kumar on 2/5/17.
 //  Copyright © 2017 Manish Kumar. All rights reserved.
