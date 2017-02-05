@@ -47,7 +47,7 @@ class TouchIdHandler: NSObject {
         // Check if we can access local device authentication
         if touchIDContext.canEvaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, error:&touchIDError) {
             print("User can use touch id")
-            // Check what the authentication response was
+            // Check current authentication response
             touchIDContext.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, localizedReason: TouchIdHandler.touchReasonString, reply: {(suceess,error) in
                 if suceess {
                     // User authenticated using Local Device Authentication Successfully!
